@@ -1,0 +1,44 @@
+{
+  "description": "My iExec ressource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "dapps": [
+    {
+      "name": "Recomanded-dapp-for-MyDataset",
+      "addresses": {
+        "42": "0x0000000000000000000000000000000000000000"
+      },
+      "buyConf": {
+        "params": "",
+        "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "trust": "0",
+        "callback": "0x0000000000000000000000000000000000000000"
+      }
+    }
+  ],
+  "dataset": {
+    "owner": "0x7800885445a481315Fac90A8e8BDb62a0e538b71",
+    "name": "datasetsconedemo",
+    "multiaddr": "https://github.com/ericr6/datasets/raw/master/demodata.zip",
+    "checksum": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "buyConf": {
+    "params": "",
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x7800885445a481315Fac90A8e8BDb62a0e538b71",
+    "name": "sconehelloworld",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/ericro/sconehelloworld",
+      "checksum": "0x65e237c071dabc4b50d01b3a92f60153b03e09371d618cdd91933486138bb640",
+    "mrenclave": "1d4c2e43b53dc78771eabdb308e9a0da746eab967e7b9bca538aa930e9b83165|f819040a3585349671ab59cbdaca1cfe|16e7c11e75448e31c94d023e40ece7429fb17481bc62f521c8f70da9c48110a1"
+  }
+}

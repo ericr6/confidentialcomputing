@@ -1,0 +1,44 @@
+{
+  "description": "My iExec ressource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "dapps": [
+    {
+      "name": "Recomanded-dapp-for-MyDataset",
+      "addresses": {
+        "42": "0x0000000000000000000000000000000000000000"
+      },
+      "buyConf": {
+        "params": "",
+        "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "trust": "0",
+        "callback": "0x0000000000000000000000000000000000000000"
+      }
+    }
+  ],
+  "dataset": {
+    "owner": "0x7800885445a481315Fac90A8e8BDb62a0e538b71",
+    "name": "helloworld_dataset",
+      "multiaddr": "/ipfs/QmRyuYb9ATh1NdYqHBxo9WFh9YKTFMf2BdUXUfzv1NzdF8",
+    "checksum": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "buyConf": {
+    "params": "",
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x7800885445a481315Fac90A8e8BDb62a0e538b71",
+    "name": "sconehelloworld_with_dataset",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/ericro/sconehelloworld_with_dataset",
+      "checksum": "0xb57c3e70c28e7883d25d059049e0935ec72fa5d621526287f8d6a33c94cec949",
+    "mrenclave": "b2bda1d0ffb24de7de16dc7d65aaf48d4000de496f443dcbaab8f3f82b9810ea|128a19bc98aa39da26cd1d4f8268cea8|16e7c11e75448e31c94d023e40ece7429fb17481bc62f521c8f70da9c48110a1"
+  }
+}
