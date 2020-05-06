@@ -38,7 +38,7 @@
     "name": "test_load_if",
     "type": "DOCKER",
     "multiaddr": "registry.hub.docker.com/ericro/test_load_if:0.1",
-      "checksum": "0x",
+      "checksum": "0x53cefb15234482ebc48daa8fcc746d87991b339e3d942527ad8c81476242c9ed",
     "mrenclave": "ca3fe47e5caed48d0242760bfd7646f64d7434a582d55b391969c5ea0ba65bbb|7f1520fda9e14c640a954d7fb1beeb41|16e7c11e75448e31c94d023e40ece7429fb17481bc62f521c8f70da9c48110a1"
   }
 }

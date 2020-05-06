@@ -1,6 +1,6 @@
-iexec app run 0x2c8C3670d39752DAC696Baa93957266c74B36611  \
+iexec app run 0xcbF2E4Bf6cC0C26fDD8290365D27218A2c7A3242  \
     --chain goerli                    \
-    --params {\"iexec_input_files\":[\"/ipfs/QmR3AydDetJHUdXcaKbXTanNnpy68Qxke8cpLHzS1VeHtT\"]} \
+    --params {\"iexec_input_files\":[\"https://github.com/ericr6/confidentialcomputing/raw/master/test_load_inputfile/tracks_heatmap.data\"]} \
     --tag tee                         \
     --dataset 0x0000000000000000000000000000000000000000 \
     --beneficiary 0x0000000000000000000000000000000000000000 \
